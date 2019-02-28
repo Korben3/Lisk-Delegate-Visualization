@@ -55,7 +55,7 @@ ctx.fillStyle="#AAAAAA";
 ctx.fillText("Standby delegates", 0, posl+25);
 
 
-//get forging delegates
+//get and show delegates
 function visualizeDelegates(offset){
 	networkClient.delegates.get({"limit":delegateTot,"offset":offset,"sort":"rank:asc"})
 	.then(res => {
