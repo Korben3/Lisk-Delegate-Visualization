@@ -1,7 +1,7 @@
-//  ______________________________________________
-// |                                              |
-// |lisk Delegate Visualization by korben3, 2019  |
-// |______________________________________________|
+//  ____________________________________________
+// |                                            |
+// |lisk Delegate Visualization by korben3, 2019|
+// |____________________________________________|
 
 //config global variables
 var network="main"; // main or test
@@ -17,12 +17,12 @@ var c=document.getElementById("myCanvas");
 var ctx=c.getContext("2d");
 ctx.font="20px Arial";
 
-var poolSherwood=["robinhood","liberspirita","liskpro.com","phoenix1969","bloqspace.io","liskascend"];
+var poolSherwood=["robinhood","liberspirita","liskpro.com","bloqspace.io","liskascend"];
 var poolSherwoodColor="rgba(10,220,10,0.75)";
-var poolGDT=["5an1ty","alepop","bioly","cc001","corsaro","dakk","eclipsun","forrest","gdtpool","goldeneye","gr33ndrag0n","grumlin","hagie","hirish","hmachado","joo5ty","kushed.delegate","liskgate","liskit","mrv","nerigal","ntelo","ondin","philhellmuth","punkrock","redsn0w","sgdias","slasheks","splatters","tembo","tonyt908","vekexasia","vi1son"];
+var poolGDT=["5an1ty","alepop","bioly","cc001","corsaro","dakk","eclipsun","endro","forrest","gdtpool","goldeneye","gr33ndrag0n","grumlin","hagie","hirish","hmachado","kushed.delegate","liskgate","liskit","mrv","nerigal","ntelo","ondin","punkrock","redsn0w","sgdias","slasheks","splatters","tembo","tonyt908","vekexasia","vi1son"];
 var poolGDTColor="rgba(10,10,220,0.75)";
-var poolElite=["iii.element.iii","leo","badman0316","liskjp","spacetrucker","acheng","carbonara","bigfisher","rooney","panzer","xujian","will","crodam","luxiang7890","adrianhunter","phinx","mrgr","someonesomeone","eastwind_ja","chamberlain","honeybee","savetheworld","seven","liskroad","forger_of_lisk","grajsondelegate","hua","mac","luiz","bigtom","jixie","veriform","augurproject","goodtimes","crolisk","lwyrup","zy1349","hong","blackswan","bilibili","loveforever","jiandan","kc","threelittlepig","menfei","yuandian","khitan","kaystar","elonhan","cai","china","catstar","dakini"];
-var poolEliteColor="rgba(220,10,10,0.75)";
+var poolElite=["leo","badman0316","liskjp","spacetrucker","acheng","bigfisher","rooney","panzer","xujian","will","luxiang7890","phinx","mrgr","someonesomeone","eastwind_ja","chamberlain","honeybee","savetheworld","seven","liskroad","forger_of_lisk","grajsondelegate","hua","mac","luiz","bigtom","jixie","veriform","augurproject","goodtimes","crolisk","hong","bilibili","loveforever","jiandan","kc","threelittlepig","menfei","yuandian","khitan","kaystar","elonhan","cai","china","catstar","dakini"];
+var poolEliteColor="rgba(220,220,10,0.75)";
 var poolNoneColor="rgba(150,150,150,0.75)";
 var poolColor="";
 
